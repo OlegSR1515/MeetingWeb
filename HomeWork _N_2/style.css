@@ -1,0 +1,23 @@
+h2 {
+    color: rgba(7, 135, 24, 0.97);
+}
+
+hr {
+    width: 100%;
+    color: #ff0000ca;
+    size: "50px" 
+} 
+
+ol {
+    font-size: 15px;
+    color:#c2650e;
+}
+
+img {
+    margin-left: 20%; 
+    border:20px solid rgb(19, 205, 56);
+}
+
+ul {
+    color:#bc0ec2;
+}
