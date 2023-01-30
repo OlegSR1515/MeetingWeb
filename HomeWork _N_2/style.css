@@ -3,9 +3,10 @@ h2 {
 }
 
 hr {
-    width: 80%;
-    color: #ff0000ca;
-    size: "2px" 
+    width: 75%;
+    border-color: #008cffca;
+    size: "4px";
+    margin-left: 0; 
 } 
 
 ol {
