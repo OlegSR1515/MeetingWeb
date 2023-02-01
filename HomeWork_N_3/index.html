@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Домашнее задание к уроку № 3</title>
+</head>
+<body style="background-color: #cde0eb;">
+  <p style="color: #1a942c; font-size: large;">Это сайт знакомств.</p>
+  <p style="color: #bc3b18; font-weight: 600;">
+    <script language="JavaScript">
+      function showName() {
+        let consent = confirm('Хотите познакомиться ?');
+        if (!consent) {
+             document.write(`Привет, Незнакомец!`);
+        } else {let name = prompt('Как Вас зовут?', 'Ваше имя...');
+            switch (name) {
+              case  null:
+                alert(`Вы не представились..` );
+                showName()
+                break; 
+              case ('Ваше имя...'):
+                alert(`Вы не ввели своё имя.` );
+                showName()
+                break; 
+              default:    
+                alert(`Всем привет, меня зовут ${name}!` );
+                document.write(`Привет, ${name}!`);
+            }    
+          } 
+      }     
+      showName();
+    </script>
+  </p>
+  <p style="color: #1100ff; font-weight: 2600;">----------------------------------</p>
+</body>
+</html> 
