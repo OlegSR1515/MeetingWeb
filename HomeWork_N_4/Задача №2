@@ -1,0 +1,21 @@
+-- Задача №2: создать БД, состоящую из одной таблицы (информация об одногруппниках)
+--  с четырьмя полями (добавить поле «Адрес»): id, name, age, address.
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  adress TEXT NOT NULL
+);
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Иван', 18, 'Санкт-Петербург');
+INSERT INTO EMPLOYEE VALUES (0002, 'Пётр', 22, 'Казань');
+INSERT INTO EMPLOYEE VALUES (0003, 'Анна', 36, 'Москва');
+INSERT INTO EMPLOYEE VALUES (0005, 'Николай', 18, 'Симферополь');
+INSERT INTO EMPLOYEE VALUES (0004, 'Юлия', 36, 'Казань');
+INSERT INTO EMPLOYEE VALUES (0006, 'Игорь', 30, 'Санкт-Петербург');
+INSERT INTO EMPLOYEE VALUES (0007, 'Игорь', 45, 'Санкт-Петербург');
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE age > 30;
+SELECT * FROM EMPLOYEE WHERE adress = 'Санкт-Петербург';
+SELECT name FROM EMPLOYEE WHERE age BETWEEN 30 AND 40 AND adress = 'Казань';
