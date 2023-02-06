@@ -92,7 +92,7 @@
         <?php $employ = ['Front End Developer', 'Web Developer / something.com', 'GraphicDesigner/designsomething.com'];                     
               $data = ['Current', 'Jan 2015', 'Mar 2012', 'Jun 2010'];
               $text = ['Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 
-                       'Praesentium magnam consectetur vel in deserunt aspernatur                           est reprehenderit sunt hic. Nulla tempora soluta ea et odio,
+                       'Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio,
                         unde doloremque repellendus iure, iste.', 
                        'Consectetur adipisicing elit.'];?>
         <div class="w3-container">              
